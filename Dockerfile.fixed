@@ -1,2 +1,2 @@
-FROM ubuntu:latest
+FROM ubuntu:22.10
 RUN apt update -y && apt install -y libssl3 && apt install -y libcom-err2 && apt install -y libext2fs2 && apt install -y libss2 && apt install -y logsave
